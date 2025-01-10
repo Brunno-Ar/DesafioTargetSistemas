@@ -7,11 +7,7 @@ public class desafio2 {
         int numero = scanner.nextInt();
 
         int a = 0, b = 1;
-        boolean pertence = false;
-
-        if (numero == a || numero == b) {
-            pertence = true;
-        }
+        boolean pertence = numero == a || numero == b;
 
         while (b < numero) {
             int temp = b;
